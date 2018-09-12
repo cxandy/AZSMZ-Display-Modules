@@ -10,10 +10,8 @@ panel.spi_cs_pin                             1.22              # spi chip select
 panel.a0_pin								 2.6			   
 panel.encoder_a_pin                          4.28!^            # encoder pin         ; GLCD EXP2 Pin 3
 panel.encoder_b_pin                          1.27!^            # encoder pin         ; GLCD EXP2 Pin 5
-
 panel.click_button_pin                       3.26!^            
 panel.buzz_pin                               1.30        
-
 panel.reverse								 1
 
 panel.external_sd                            true              # set to true if there is an extrernal sdcard on the panel
