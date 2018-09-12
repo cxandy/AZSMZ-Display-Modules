@@ -32,7 +32,7 @@ Mac OS/X and Linux have the drivers built in.
 You can ignore any messages about missing DFU drivers.
 
 ## Terminal
-You can also connect to Smoothie with any serial console program, which should be set to local echo and Linefeed line endings.
+You can also connect to AZSMZ Mini with any serial console program, which should be set to local echo and Linefeed line endings.
 
 Typing help will show a list of console commands available.
 
