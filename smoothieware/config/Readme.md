@@ -1,10 +1,9 @@
-# Panel
+   #Panel
 panel.enable                                 true             # set to true to enable the panel code
-
-panel.lcd									                   viki2				# st7565_glcd
-panel.contrast								               15					  # 15 For azsmz lcd blue; 48 For azsmz lcd green; 
-panel.rough_contrast					               36					# 36 For azsmz lcd
-panel.is_sh1106								               1            # For AZSMZ OLED
+panel.lcd                                    viki2				# st7565_glcd
+panel.contrast		                     15					  # 15 For azsmz lcd blue; 48 For azsmz lcd green; 
+panel.rough_contrast		               36					# 36 For azsmz lcd
+panel.is_sh1106				         1            # For AZSMZ OLED
 
 panel.spi_channel                            0                 # spi channel to use  ; GLCD EXP1 Pins 3,5 (MOSI, SCLK)
 panel.spi_cs_pin                             1.22              # spi chip select     ; GLCD EXP1 Pin 4
@@ -32,8 +31,8 @@ panel.gamma_jog_feedrate                     6000               # z jogging feed
 panel.hotend_temperature                     185               # temp to set hotend when preheat is selected
 panel.bed_temperature                        60                # temp to set bed when preheat is selected
 
-# Example of a custom menu entry, which will show up in the Custom entry.
-# NOTE _ gets converted to space in the menu and commands, | is used to separate multiple commands
+ # Example of a custom menu entry, which will show up in the Custom entry.
+ # NOTE _ gets converted to space in the menu and commands, | is used to separate multiple commands
 custom_menu.power_on.enable                  true              #
 custom_menu.power_on.name                    Power_on          #
 custom_menu.power_on.command                 M80               #
