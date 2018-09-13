@@ -1,6 +1,6 @@
 # AZSMZ OLED
-![AZSMZ 12864 OLED](images/850-board.jpg)
 ![AZSMZ 12864 OLED](images/850-oled-1.jpg)
+![AZSMZ 12864 OLED](images/850-board.jpg)
 ![AZSMZ 12864 OLED](images/850-oled-2.jpg)
 ![AZSMZ 12864 OLED](images/850-oled-3.jpg)
 ![AZSMZ 12864 OLED](images/850-oled-4.jpg)
