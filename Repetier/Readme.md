@@ -2,7 +2,6 @@
     //#define ENABLE_SOFTWARE_SPI_CLASS 0
     #define ENABLE_SOFTWARE_SPI_CLASS 1
     
-
 2.modify Repetier.h
     #include "src/SdFat/SdFat.h"
     enum LsAction {LS_SerialPrint,LS_Count,LS_GetFilename};
