@@ -29,12 +29,14 @@
 
 4.AZSMZ 12864 OLED
 
-modify ui.cpp 
+modify ui.cpp
+ 
     #ifdef U8GLIB_SH1106_SW_SPI
         u8g_InitSPI(&u8g, &u8g_dev_sh1106_128x64_sw_spi,  UI_DISPLAY_D4_PIN, UI_DISPLAY_ENABLE_PIN, UI_DISPLAY_RS_PIN, UI_DISPLAY_D5_PIN, U8G_PIN_NONE);
     #endif
 
 modify DisplayList.h
+
     // For AZSMZ 12864 LCD
     //#undef U8GLIB_ST7565_NHD_C2832_HW_SPI
     //#define U8GLIB_ST7565_NHD_C2832_SW_SPI
