@@ -26,7 +26,6 @@
     const uint8_t SOFT_SCK_PIN  = 52;
 
 4.AZSMZ 12864 OLED
-
 modify ui.cpp 
     #ifdef U8GLIB_SH1106_SW_SPI
         u8g_InitSPI(&u8g, &u8g_dev_sh1106_128x64_sw_spi,  UI_DISPLAY_D4_PIN, UI_DISPLAY_ENABLE_PIN, UI_DISPLAY_RS_PIN, UI_DISPLAY_D5_PIN, U8G_PIN_NONE);
