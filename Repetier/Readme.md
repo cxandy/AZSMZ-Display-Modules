@@ -4,6 +4,7 @@
     #define ENABLE_SOFTWARE_SPI_CLASS 1
     
 2.modify Repetier.h
+
     #include "src/SdFat/SdFat.h"
     enum LsAction {LS_SerialPrint,LS_Count,LS_GetFilename};
     class SDCard
@@ -17,6 +18,7 @@
             #endif
 
 3.modify pins.h
+
     add at board 408,413 ：
     #define SDSUPPORT 1 
     #define SDCARDDETECTINVERTED 0
@@ -26,6 +28,7 @@
     const uint8_t SOFT_SCK_PIN  = 52;
 
 4.AZSMZ 12864 OLED
+
 modify ui.cpp 
     #ifdef U8GLIB_SH1106_SW_SPI
         u8g_InitSPI(&u8g, &u8g_dev_sh1106_128x64_sw_spi,  UI_DISPLAY_D4_PIN, UI_DISPLAY_ENABLE_PIN, UI_DISPLAY_RS_PIN, UI_DISPLAY_D5_PIN, U8G_PIN_NONE);
@@ -40,6 +43,7 @@ modify DisplayList.h
     #define U8GLIB_SH1106_SW_SPI    // For AZSMZ 12864 OLED
 
 5.ESP8266 WIFI port
+
     modify Configuration.h
     #define BLUETOOTH_SERIAL  2
     #define BLUETOOTH_BAUD  115200
