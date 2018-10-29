@@ -1,7 +1,7 @@
 # Where to get
   http://Bancuit.aliexpress.com
 # Firmware
-  [Repetier 1.0.3](/Repetier/Repetier-Firmware-1.0.3(For SMART RAMPS+ AZSMZ 12864 OLED Wifi).zip)
+  [Repetier 1.0.3](https://github.com/cxandy/AZSMZ-Display-Modules/blob/master/Repetier/Repetier-Firmware-1.0.3(For%20SMART%20RAMPS%2B%20AZSMZ%2012864%20OLED%20Wifi).zip)
 # AZSMZ OLED
 ![AZSMZ 12864 OLED](images/850-oled-1.jpg)
 ![AZSMZ 12864 OLED](images/850-board.jpg)
